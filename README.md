@@ -30,3 +30,7 @@ as described above. Non-numeric characters in file names will crash the program.
 When `viewer.py` is run, it will convert (if necessary) any PDFs in the same directory.
 Once this is done, it will start the slideshow. The delay can be controlled by changing the `delay`
 variable. The slideshow can be ended by pressing `Ctrl+Shift+R`.
+
+### Command line options
+If `viewer.py` is run through the command line, the delay between slides (in milliseconds) can be
+specified with the `--delay` or `-d` option.
